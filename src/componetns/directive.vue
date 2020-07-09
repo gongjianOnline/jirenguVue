@@ -2,7 +2,6 @@
   <div class="wrapper">
     自定义事件测试
     <button v-click="hi">自定义触发</button>
-
   </div>
 </template>
 

@@ -5,13 +5,14 @@
       <div> 
         <button @click="routBtn('directive')">directive自定义指令</button>
         <button @click="routBtn('mixin')">Mixin混入</button>
+        <button @click="routBtn('extend')">exentds继承</button>
       </div>
     </div>
     <!-- 视图层 -->
     <div> 
       <router-view></router-view>
     </div>
-    
+
 
 
 
@@ -28,9 +29,8 @@ export default {
   },
   methods:{
     routBtn(name){
-      console.log("测试")
       this.$router.push({
-        name:name
+        name:name,
       })
     }
   }
