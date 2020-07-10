@@ -4,6 +4,7 @@ import Index from '@/view/index'
 import Directive from '@/componetns/directive'
 import Mixin from '@/componetns/Mixin'
 import Extend from '@/componetns/extend'
+import InjectIndex from '@/componetns/provide&inject/index'
 
 
 Vue.use(Router)
@@ -29,6 +30,11 @@ export default new Router({
           name: 'extend',
           component: Extend,
         },
+        {
+          path: '/injectIndex',
+          name: 'injectIndex',
+          component: InjectIndex,
+        }
       ]
     },
   ]

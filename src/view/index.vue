@@ -6,6 +6,7 @@
         <button @click="routBtn('directive')">directive自定义指令</button>
         <button @click="routBtn('mixin')">Mixin混入</button>
         <button @click="routBtn('extend')">exentds继承</button>
+        <button @click="routBtn('injectIndex')">provid&inject</button>
       </div>
     </div>
     <!-- 视图层 -->

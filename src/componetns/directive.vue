@@ -24,9 +24,12 @@ export default {
   },
   directives:{
     click:{
-      inserted(el,info){
+      inserted(el,info){ //初始化声明单击事件
         console.log(info)
         el.addEventListener(info.name,info.value)
+      },
+      unbind(el,info){ //销毁前注销单击事件
+        el.removeEventListener(info.name,info.value)
       }
     }
   }
