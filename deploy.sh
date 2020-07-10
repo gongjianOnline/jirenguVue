@@ -1,6 +1,6 @@
-cnpm build &&
+cnpm run build &&
 git checkout dist &&
-rm -rf build config src static .babelrc .editorconfig .postcssrc.js *.html *.json *.md &&
+rm -rf build config src .babelrc .editorconfig .postcssrc.js *.html *.json *.md &&
 mv dist/* ./ &&
 git add . && 
 git commit -m "update" &&
