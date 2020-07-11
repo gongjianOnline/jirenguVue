@@ -1,6 +1,7 @@
 # vuedemo
 
 > Vue练习实例
+[在线预览](http://www.gjweb.online/jirenguVue/dist/index.html#/)
 
 ## Build Setup
 
